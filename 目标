@@ -1,0 +1,10 @@
+1 规范化代码-如何学会规范化代码？规范化的标准是什么？
+代码规范工具：black ruff isort pre-commit 
+    isort: 自动排序import语句
+    black: 代码格式化工具
+    ruff: 代码静态分析工具，检查代码中的潜在问题和错误
+    pre-commit: Git钩子管理工具，在提交代码前自动运行指定的代码检查和格式化工具
+使用方式：
+    pre-commit install # 安装pre-commit钩子，到当前目录下 .git/hooks/pre-commit
+    pre-commit run --all-files / [指定目录] # 运行所有文件的检查和格式化
+2 Conda环境管理
